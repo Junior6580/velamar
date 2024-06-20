@@ -1,0 +1,217 @@
+.sidebar-dark-primary {
+    background-color: #52B6F8;
+}
+
+.btn-block {
+    color: #000000;
+    background-color: #52B6F8;
+    border-color: #52B6F8;
+}
+
+.btn-block:hover {
+    color: #e9efef;
+    background-color: #1E7EBD;
+    border-color: #1E7EBD;
+}
+
+.nav-item .active {
+    background-color: #1E7EBD !important;
+    color: #c2c7d0 !important;
+}
+
+.nav-item:hover {
+    background-color: #1E7EBD !important;
+    color: #fff !important;
+    border-radius: 5px;
+}
+
+.nav-item .active:hover {
+    color: #fff !important;
+    border-radius: 5px;
+}
+
+.menu-is-opening {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 5px;
+}
+
+.nav-item .active:hover {
+    color: #fff !important;
+    border-radius: 5px;
+}
+
+.menu-is-opening {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 5px;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: rgb(0, 0, 0) !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ffffff !important;
+}
+
+.navbar-nav .active {
+    background-color: #1E7EBD !important;
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-item:hover {
+    background-color: #52B6F8 !important;
+    border-radius: 5px;
+}
+
+.nav-treeview .nav-item > .nav-link i {
+    padding-left: 5px !important;
+}
+
+.content-wrapper {
+    background-color: #ebfffe;
+}
+
+.card-primary {
+    border-top: 3px solid #52B6F8 !important;
+}
+
+#divbreadcrumb {
+    border: 2px solid #52B6F8 !important;
+    border-radius: 5px;
+}
+
+.breadcrumb-item a {
+    color: #6c757d !important;
+}
+
+.info-user {
+    overflow: visible !important;
+    color: #c2c7d0 !important;
+}
+
+.sidebar-mini.sidebar-collapse .info {
+    animation-name: fadeOut;
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+    display: none;
+}
+
+.sidebar-collapse .main-sidebar:hover .info {
+    animation-name: fadeIn;
+    animation-duration: 0.1s;
+    display: block !important;
+}
+
+.mbottom16 {
+    margin-bottom: 16px;
+}
+
+.mtop16 {
+    margin-top: 16px;
+}
+
+.mleft8 {
+    margin-left: 8px;
+}
+
+.sidebar-collapse .main-sidebar:hover .info {
+    animation-name: fadeIn;
+    animation-duration: 0.1s;
+    display: block !important;
+}
+
+.mbottom16 {
+    margin-bottom: 16px;
+}
+
+.mtop16 {
+    margin-top: 16px;
+}
+
+.mleft8 {
+    margin-left: 8px;
+}
+
+.jumbotron {
+    background-color: #ebfffe !important;
+    padding: 5px 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Zurich+Ultra+Black+Extended&display=swap');
+
+.display-4{
+    font-family: 'Helvetica Medium', 'Arial', sans-serif;
+}
+.btn-app {
+    height: 80px;
+    min-width: 100px;
+}
+
+.btn-app-2 {
+    height: 110px !important;
+    min-width: 130px !important;
+}
+
+.btn-app i {
+    font-size: 30px !important;
+}
+
+.btn-app-2 i {
+    margin-top: 8px !important;
+    font-size: 45px !important;
+}
+
+.btn-app > .badge {
+    font-size: 15px;
+    top: -8px !important;
+}
+
+.btn-app-2 > .badge {
+    font-size: 16px;
+    top: -8px !important;
+}
+
+
+
+
+a[title]:hover::before {
+    content: attr(title);
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    padding: 3px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin-top: -25px;
+    margin-left: -20px;
+    white-space: nowrap;
+}
+
+.button-login {
+    position: relative;
+    padding: 6px 45px;
+    background: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    color: #000; /* Change this line to set the text color to black */
+    border-radius: 8px;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.2));
+}
+
+.button-login:hover {
+    background: linear-gradient(
+        85deg,
+        #52B6F8,
+        #52B6F8,
+        #52B6F8,
+        #52B6F8,
+        #52B6F8
+    );
+    animation: wind 2s ease-in-out infinite;
+}
+
+
