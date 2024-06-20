@@ -1,0 +1,246 @@
+/* DANCING SCRIPT FONTS */
+@font-face {
+    font-family: "Dancing Script";
+    src: url("../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Dancing Script";
+    src: url("../fonts/Dancing_Script/static/Dancing_Script_Bold.ttf")
+        format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Dancing Script";
+    src: url("../fonts/Dancing_Script/static/DancingScript-Medium.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Dancing Script";
+    src: url("../fonts/Dancing_Script/static/DancingScript-Regular.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Dancing Script";
+    src: url("../fonts/Dancing_Script/static/DancingScript-SemiBold.ttf")
+        format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Dosis";
+    src: url("../fonts/Dosis/Dosis-VariableFont_wght.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* DOSIS FONTS */
+
+@font-face {
+    font-family: "Dosis";
+    src: url("../fonts/Dosis/static/Dosis-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Dosis";
+    src: url("../fonts/Dosis/static/Dosis-ExtraBold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Dosis";
+    src: url("../fonts/Dosis/static/Dosis-ExtraLight.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Dosis";
+    src: url("../fonts/Dosis/static/Dosis-Light.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Dosis";
+    src: url("../fonts/Dosis/static/Dosis-Medium.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Dosis";
+    src: url("../fonts/Dosis/static/Dosis-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Dosis";
+    src: url("../fonts/Dosis/static/Dosis-SemiBold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* KODO MONO FONTS */
+
+@font-face {
+    font-family: "Kode Mono";
+    src: url("../fonts/Kode_Mono/KodeMono-VariableFont_wght.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Kode Mono";
+    src: url("../fonts/Kode_Mono/static/KodeMono-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Kode Mono";
+    src: url("../fonts/Kode_Mono/static/KodeMono-Medium.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Kode Mono";
+    src: url("../fonts/Kode_Mono/static/KodeMono-Regular.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Kode Mono";
+    src: url("../fonts/Kode_Mono/static/KodeMono-SemiBold.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("../fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("../fonts/Josefin_Sans/static/JosefinSans-Bold.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("../fonts/Josefin_Sans/static/JosefinSans-BoldItalic.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("../fonts/Josefin_Sans/static/JosefinSans-ExtraLight.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("../fonts/Josefin_Sans/static/JosefinSans-ExtraLightItalic.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("../fonts/Josefin_Sans/static/JosefinSans-Italic.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("../fonts/Josefin_Sans/static/JosefinSans-Light.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("../fonts/Josefin_Sans/static/JosefinSans-LightItalic.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("../fonts/Josefin_Sans/static/JosefinSans-Medium.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("../fonts/Josefin_Sans/static/JosefinSans-MediumItalic.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("../fonts/Josefin_Sans/static/JosefinSans-Regular.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("../fonts/Josefin_Sans/static/JosefinSans-SemiBold.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("../fonts/Josefin_Sans/static/JosefinSans-SemiBoldItalic.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("../fonts/Josefin_Sans/static/JosefinSans-Thin.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("../fonts/Josefin_Sans/static/JosefinSans-ThinItalic.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}

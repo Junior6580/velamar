@@ -1,0 +1,334 @@
+* {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Estilos personalizados para el navbar */
+/* Estilos generales */
+.navbar {
+    background: linear-gradient(90deg, #ffffff, #ffffff); /* Fondo con gradiente azul */
+    border-bottom: 4px solid #0e7fc4; /* Borde inferior */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    padding: 10px 0;
+}
+
+.navbar-brand img {
+    max-height: 60px; /* Altura máxima del logo */
+    transform: scale(1.5); /* Escala el tamaño del logo */
+    transform-origin: center; /* Mantiene el logo centrado */
+}
+
+.navbar-toggler {
+    border-color: #ffffff; /* Color del botón del toggler */
+    background-color: #0e7fc4; /* Fondo del toggler */
+}
+
+.navbar-toggler-icon {
+    color: #ffffff; /* Color del icono del toggler */
+}
+
+.navbar-nav .nav-link {
+    color: #000000; /* Color del texto de los enlaces */
+    padding: 10px 20px; /* Espaciado interno de los enlaces */
+    transition: color 0.3s, box-shadow 0.3s, background-color 0.3s; /* Transición para el color y sombra */
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0e7fc4; /* Color del texto al pasar el mouse */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo claro semitransparente al pasar el mouse */
+    box-shadow: 0 0 10px rgba(14, 127, 196, 0.5); /* Sombra azul */
+}
+
+.dropdown-menu {
+    background-color: #0066cc; /* Color de fondo del menú desplegable */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del menú desplegable */
+}
+
+.dropdown-item {
+    color: #ffffff; /* Color del texto de los elementos del menú desplegable */
+}
+
+.dropdown-item:hover {
+    background-color: #004d99; /* Fondo al pasar el mouse */
+    color: #0e7fc4; /* Color del texto al pasar el mouse */
+}
+
+/* Estilos específicos para la versión en español o inglés */
+.nav-link i.fa-globe {
+    margin-left: 5px; /* Margen a la izquierda del icono */
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    color: #fff;
+    background: #0e7fc4;
+    border-radius: 5px;
+}
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus,
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: #fff;
+    background: #0e7fc4;
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+    .navbar-brand img {
+        max-height: 50px; /* Altura máxima del logo en dispositivos móviles */
+        transform: scale(1.5); /* Escala el tamaño del logo */
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .dropdown-menu {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-item {
+        width: 100%;
+    }
+
+    .nav-link {
+        display: block;
+        width: 100%;
+    }
+}
+
+
+
+#mainJumbotron {
+    color: #fff;
+}
+#jumbotronTitle {
+    font-family: "Kode Mono", monospace;
+}
+#jumbotronDescription {
+    font-family: "Kode Mono", monospace;
+}
+.btn22 {
+    background: transparent;
+    border: 2px solid #4285f4;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none !important;
+    border-radius: 20px;
+}
+.btn22:hover {
+    background: #79a5eb;
+    color: #000000;
+}
+#tletra {
+    font-family: "Kode Mono", monospace;
+}
+
+#js {
+    margin-top: 80px;
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+/*Estilo de la imagen de la historia*/
+#imgjs {
+    height: 100%;
+    width: 100%;
+}
+
+/*Estilo del contenido de las vistas*/
+.wrapper {
+    background-color: #f0f8ff;
+}
+
+/*Estilo del video de las instalaciones*/
+#vide {
+    height: 1000px;
+    width: 1000px;
+    margin-bottom: -300px;
+}
+
+#videg {
+    width: 800px;
+}
+
+/*Estilo del video de la historia*/
+#videwe {
+    height: 800px;
+    width: 800px;
+}
+
+/* Estilos del footer */
+#foter {
+    background-color: #ffffff;
+    color: #000000; /* Color de texto negro */
+}
+
+#foter a {
+    color: #000000; /* Color de enlaces en el footer */
+}
+
+#foter a:hover {
+    color: #56565a; /* Cambia el color al pasar el cursor sobre los enlaces */
+}
+
+.text-reset i {
+    transition: transform 0.3s ease-in-out; /* Transición suave */
+}
+
+.text-reset i:hover {
+    transform: scale(1.2); /* Aumenta el tamaño al 120% */
+}
+a:hover {
+    color: #000000;
+}
+
+/* Estilo del encabezado del modal */
+.modal-header {
+    background-color: #0e7fc4;
+    color: #fff;
+    border-bottom: none;
+}
+
+/* Estilo del jumbotron */
+#jumbotron {
+    background-image: url("../images/collage velamars.png");
+    background-size: cover;
+    height: 1200px;
+    width: 100%;
+    border-radius: 20px;
+}
+#welcom {
+    position: center;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 20px 20px 20px rgb(0, 0, 0);
+}
+
+#welms {
+    color: #ffffff;
+    font-size: 28px;
+    text-shadow: 20px 20px 20px rgb(0, 0, 0);
+}
+
+.navbar-toggler {
+    background: #0e7fc4;
+}
+#infod {
+    background-color: #0e7fc4;
+    color: #fff;
+}
+#title {
+    font-size: 18px;
+}
+#infod:hover {
+    background-color: #009eff;
+    color: rgb(255, 255, 255);
+}
+
+.btn-agregar {
+    background-color: #16a085;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: none;
+}
+.btn-agregar:hover {
+    background-color: #126352;
+    color: #ffffff;
+}
+.btn-editar {
+    background-color: #f5b041;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: none !important;
+}
+.btn-editar:hover {
+    background-color: #825713;
+    color: #ffffff;
+}
+
+.btn-eliminar {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none !important;
+    font-size: 12px;
+}
+.btn-eliminar:hover {
+    background-color: #8a1c0f;
+    color: #ffffff;
+}
+
+/* Custom button color */
+.btn-alerta {
+    background-color: #009eff;
+    color: #fff; /* Text color */
+}
+
+/* CSS para el botón desplegable */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-button {
+    /* Estilos específicos para el botón desplegable */
+    font-size: 18px;
+}
+
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.video-item {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+    width: 100%; /* Ajustar el ancho para ocupar todo el espacio de la columna */
+}
+
+.video-item video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

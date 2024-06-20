@@ -1,0 +1,53 @@
+.card {
+    border-radius: 15px; /* Ajusta el valor según lo desees */
+    transition: transform 0.3s ease;
+    height: 300px; /* Establece una altura fija para todas las tarjetas */
+    overflow: hidden; /* Oculta el exceso de contenido para mantener la altura fija */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al 5% */
+}
+
+.card-header {
+    border-radius: 0.25rem 0.25rem 0 0;
+    background-color: #5894FF;
+}
+
+.card-header h2 {
+    color: #fff;
+}
+
+.card-body {
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.card-body p {
+    color: #000;
+}
+
+.card-body video {
+    width: 100%;
+}
+
+.card-body h3 {
+    color: #343a40;
+}
+
+.card-body p {
+    color: #343a40;
+}
+
+.card-body i {
+    margin-bottom: 1rem;
+    color: #5894FF;
+}
+@media (max-width: 768px) {
+    .card-body i {
+        font-size: 3.5em;
+    }
+}

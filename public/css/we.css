@@ -1,0 +1,95 @@
+#valores-compromisos {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #17202A;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.item {
+    color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.item h3 {
+    color: #333;
+}
+
+.item p {
+    color: #666;
+    font-size: 16px;
+}
+.item {
+    transition: transform 0.3s ease;
+    box-shadow: 0px 4px 8px 0px #17202A;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+#valor{
+    color: #ffffff;
+    font-family: 'Comic Sans MS', cursive;
+}
+#wes{
+    background-color: #ff0000;
+}
+
+.item {
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icon img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    display: block;
+    margin: 0 auto;
+}
+
+#valor {
+    color: white;
+}
+.grid .item .h3 {
+    color: #000000;
+}
+
+/* Agrega este CSS al final de tu archivo CSS we.css o crea un nuevo archivo CSS */
+.card {
+    height: 100%; /* Ajusta la altura de todas las tarjetas al 100% */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Ajusta la altura del cuerpo de la tarjeta al 100% */
+}
+
+.card-title,
+.card-text {
+    flex-grow: 1; /* Permite que el título y el texto de la tarjeta crezcan para llenar el espacio disponible */
+}
